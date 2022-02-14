@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(315deg, #492b4b, #0f2738);
+    color: rgb(235, 235, 235);
+}
+
+.fa{
+    color: whitesmoke;
+}
+
+nav, #content, #sidebar, #foot, #arrow{
+    background-color: rgba(240, 248, 255, 0.1);
+    border: solid 2px whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px white;
+}
+
+#sidebar, #arrow{
+    animation-duration: 3s;
+    animation-name: glow;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glow {
+    0%{box-shadow: 0px 0px 10px rgb(255, 197, 247);}
+    50%{box-shadow: 0px 0px 30px rgb(255, 197, 247);}
+    100%{box-shadow: 0px 0px 10px rgb(255, 197, 247);}
+}
+
+a{
+    color: rgb(213, 236, 255);
+}
+
+a:hover, .fa:hover{
+    color: rgb(255, 197, 247);
+}
+
+a:visited{
+    color: #a887aa;
+}

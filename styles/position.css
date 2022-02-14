@@ -1,0 +1,101 @@
+.main{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px 40px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+#container{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+#content{
+    width: 550px;
+    height: auto;
+    padding: 20px 30px;
+}
+
+#sidebar{
+    width: 160px;
+    height: auto;
+    position: fixed;
+    right: 160px;
+    bottom: 85px;
+    display: flex;
+    justify-content: center;
+}
+
+.icons{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.fa{
+    margin-bottom: 10px;
+}
+
+img{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+h2, p{
+    margin: 20px 10px;
+}
+
+h3{
+    margin: 20px 0;
+}
+
+#masthead{
+    margin-bottom: 40px;
+}
+
+ul#menu{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+ul#foot{
+    margin-top: 60px;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.start{
+    margin: 0px 20px;
+}
+
+.last{
+    margin-right: 20px;
+}
+
+#arrow{
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    padding: 10px;
+}
+
+caption{
+    margin-bottom: 28px;
+}
+
+.gallery{
+    width: 150px;
+    height: auto;
+}
